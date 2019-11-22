@@ -1,0 +1,6 @@
+framework module Pods_IndexPSITests {
+  umbrella header "Pods-IndexPSITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

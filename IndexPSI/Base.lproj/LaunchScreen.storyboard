@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="KL0-wU-l0t">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15508"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="wlH-uX-zRJ">
+            <objects>
+                <viewController id="KL0-wU-l0t" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="va7-a2-zzW">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="singapore" translatesAutoresizingMaskIntoConstraints="NO" id="Wtv-Lh-czb">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="FpX-iV-60U">
+                                <rect key="frame" x="87" y="384" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="G8U-Cq-cFj"/>
+                                    <constraint firstAttribute="width" constant="240" id="eXO-QG-uPE"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="oWO-xX-8PF" firstAttribute="trailing" secondItem="Wtv-Lh-czb" secondAttribute="trailing" id="DVk-Ez-rHB"/>
+                            <constraint firstItem="Wtv-Lh-czb" firstAttribute="leading" secondItem="oWO-xX-8PF" secondAttribute="leading" id="Psw-Qc-0sf"/>
+                            <constraint firstItem="Wtv-Lh-czb" firstAttribute="top" secondItem="va7-a2-zzW" secondAttribute="top" id="R5E-3d-sGh"/>
+                            <constraint firstItem="FpX-iV-60U" firstAttribute="centerX" secondItem="va7-a2-zzW" secondAttribute="centerX" id="Tiq-hN-VMu"/>
+                            <constraint firstAttribute="bottom" secondItem="Wtv-Lh-czb" secondAttribute="bottom" id="ZDK-EX-Hwo"/>
+                            <constraint firstItem="FpX-iV-60U" firstAttribute="centerY" secondItem="va7-a2-zzW" secondAttribute="centerY" id="dZR-Bf-wfB"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="oWO-xX-8PF"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xYR-3o-L6t" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="logo" width="191" height="47"/>
+        <image name="singapore" width="1996" height="1496"/>
+    </resources>
+</document>
