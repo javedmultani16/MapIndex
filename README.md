@@ -1,5 +1,5 @@
-# MapIndex**
-App shows the PSI Index.**
+# MapIndex
+**App shows the PSI Index.**
 
 **Note:** Please use latest XCode.
 
